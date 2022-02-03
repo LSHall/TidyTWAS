@@ -3,6 +3,7 @@ This repository contains functions for harmonizing, processing, and visualizing 
 
 ##TidyTWAS offers three functions:
 1) to read in the results from a TWAS performed using FUSION software for up to five traits, to harmonize and process these results, and write out a spreadsheet of cross-trait TWAS Z-scores and P-values for TWAS-significant genes
+2) to write out locus files for downstream TWAS finemapping
 2) to generate a heatmap of TWAS associations for genes which are TWAS significant in two or more traits
 
 ## Prerequisites
