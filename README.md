@@ -6,6 +6,16 @@ This repository contains functions for harmonizing, processing, and visualizing 
 2) to write out locus files for downstream TWAS finemapping
 2) to generate a heatmap of TWAS associations for genes which are TWAS significant in two or more traits
 
+*** this is at a very primordial stage and a work in progress ***
+The TidyTWAS.R script will end up being the final script that will be runnable from the command line (similar to FUSION.assoc_test.R)
+TidyTWAS.R is taking information from:
+1) TWAS.results.processing.R for reading in data from multiple sources and harmonizing
+2) deriving_sig_loci_for_conditional_TWAS.R for generating loci for downstream finemapping
+3) XDis_heatmap.R for generating the cross-trait heatmap
+
+Mirrored manhattan produces a mirrored manhattan plot of TWAS results for one trait~tissue association, I am figuring out whether this is a feature I want include in TidyTWAS or whether it is unnecessary, as the main function of this software will be for multiple phenotype/tissue results.
+
+
 ## Prerequisites
 #R and the required packages:
 install.packages(c('optparse','tidyverse','data.table','xlsx','purrr','plyr','stringr','biomaRt','sqldf'))
